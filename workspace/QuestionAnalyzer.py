@@ -5,7 +5,7 @@ import http
 
 class QuestionAnalyzer():
 
-	def __init__(self, openapi_key = '7dce7e82-ee9d-4031-be77-c466155a6be5'):
+	def __init__(self, openapi_key = '-'):
 		self.openapi_key = openapi_key
 
 	def do_lang (self, openapi_key, text) :
